@@ -1,0 +1,1 @@
+execute as @e[tag=sn_persist] run data merge entity @s {Age:0}
