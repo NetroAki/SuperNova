@@ -1,0 +1,10 @@
+schedule clear #minecraft:center_out
+schedule clear #minecraft:center_out_10
+schedule clear #minecraft:center_out_2
+schedule clear #minecraft:center_out_3
+schedule clear #minecraft:center_out_4
+schedule clear #minecraft:center_out_5
+schedule clear #minecraft:center_out_6
+schedule clear #minecraft:center_out_7
+schedule clear #minecraft:center_out_8
+schedule clear #minecraft:center_out_9
