@@ -1,0 +1,52 @@
+StageFront = Spead equally across the front block of the stage riser
+StageFrontMid = Across the middle of the stage (in-between StageFront armor stands)
+Co2 = Place from the higest point you want the Co2 to come from
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Rotation:[-90F,0F],CustomName:'{"text":"co2"}'}
