@@ -1,6 +1,23 @@
+DataPack made for effects in minecraft URL festivals.
+
+The system is based off of named armor stands and everything is reletive to them.
+
+
+
+
+
+
+
+
+
+
+
+Name your Armor stand these and position them accordingly.
+
 StageFront = Spead equally across the front block of the stage riser
 StageFrontMid = Across the middle of the stage (in-between StageFront armor stands)
 Co2 = Place from the higest point you want the Co2 to come from
+f_1 to f_20 = Lined up in front of the stage one block down compared to the stage level
 
 
 
@@ -20,33 +37,13 @@ Co2 = Place from the higest point you want the Co2 to come from
 
 
 
+Command for directing at armor stands
+execute at @e[type=minecraft:armor_stand,limit=12,distance=0..100,name="StageFrontMid"] run
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The command to summon named armor stands (currently visable for testing purposes)
 /summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Rotation:[-90F,0F],CustomName:'{"text":"co2"}'}
