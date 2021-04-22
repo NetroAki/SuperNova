@@ -4,7 +4,7 @@ The system is based off of named armor stands and everything is relative to them
 
 
 
-/summon area_effect_cloud ~ ~ ~ {Radius:0.01f,Duration:2400,Tags:["sn_fx","sn_persist"]}
+
 
 
 
