@@ -1,4 +1,4 @@
-#---Scoreboard shit----
+#---Scoreboard shit----#
 scoreboard objectives add co2_timer dummy
 scoreboard objectives add center_out_wave dummy
 scoreboard objectives add co2_threshold dummy
@@ -37,12 +37,12 @@ tellraw @a {"text": "Main Module loaded", "color": "#0000FF"}
 #summon minecraft:area_effect_cloud -33 77 -172 {Tags:[sn_persist,sn_fx,sn_process],Duration:103}
 #summon minecraft:area_effect_cloud -33 77 -169 {Tags:[sn_persist,sn_fx,sn_process],Duration:104}
 
-#---Stage Front Mid---#
+#---Stage Front Mid---# Universe 1.5
 #summon minecraft:area_effect_cloud -33 77 -176 {Tags:[sn_persist,sn_fx,sn_process],Duration:151}
 #summon minecraft:area_effect_cloud -33 77 -175 {Tags:[sn_persist,sn_fx,sn_process],Duration:152}
 #summon minecraft:area_effect_cloud -33 77 -174 {Tags:[sn_persist,sn_fx,sn_process],Duration:153}
 
-#---CO2---#
+#---CO2---# Universe 2
 #summon minecraft:area_effect_cloud -30 95 -183 {Tags:[sn_persist,sn_fx,sn_process],Duration:201}
 #summon minecraft:area_effect_cloud -30 95 -175 {Tags:[sn_persist,sn_fx,sn_process],Duration:202}
 #summon minecraft:area_effect_cloud -30 95 -167 {Tags:[sn_persist,sn_fx,sn_process],Duration:203}
