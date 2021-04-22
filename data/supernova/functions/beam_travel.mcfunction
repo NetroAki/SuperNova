@@ -1,8 +1,8 @@
 #Raise iteration count
-scoreboard players add novatone beam_rise 1
+scoreboard players add novatone beam_travel 1
 
 #Set up the target
-execute if score novatone beam_rise matches 2 run summon minecraft:area_effect_cloud -36 81 -175 {Tags:[sn_persist,sn_fx_beamtarget],Duration:2000000}
+execute if score novatone beam_travel matches 2 run summon minecraft:area_effect_cloud -35 83 -167 {Tags:[sn_persist,sn_fx_beamtarget],Duration:2000000}
 
 #Define the items running the effect
 tag @e[tag=sn_fx,scores={fx_id=305}] add sn_fx_beamfire
@@ -18,14 +18,14 @@ execute as @e[tag=sn_fx_beamfire] at @s positioned ~ ~2 ~ facing entity @e[tag=s
 tag @e[tag=sn_fx_beamfire] remove sn_fx_beamfire
 
 #Update target position
-execute as @e[tag=sn_fx_beamtarget] at @s run tp ~ ~0.2 ~
+execute as @e[tag=sn_fx_beamtarget] at @s run tp ~ ~ ~-0.2
 
 #Remove the target if at max iteration count
-execute if score novatone beam_rise matches 51 run kill @e[tag=sn_fx_beamtarget]
+execute if score novatone beam_travel matches 81 run kill @e[tag=sn_fx_beamtarget]
 
 #Reset iteration count
-execute if score novatone beam_rise matches 51 run scoreboard players set novatone beam_rise 1
+execute if score novatone beam_travel matches 81 run scoreboard players set novatone beam_travel 1
 
 #Schedule function repeat
-schedule function #minecraft:beam_rise 1
+schedule function #minecraft:beam_travel 1
 

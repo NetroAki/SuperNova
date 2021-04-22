@@ -28,7 +28,13 @@ execute store result entity @e[type=minecraft:end_crystal,limit=1] BeamTarget.Z 
 
 
 
+execute if score novatone color_wave_b matches 2 run execute as @e[tag=sn_fx,scores={fx_id=301}] at @s run summon end_crystal ~ ~ ~ {Tags:[sn_fx_endbeamfire]}
+execute as @e[tag=sn_fx_endbeamfire] store result entity @s BeamTarget.X int 1 run data get entity @e[tag=sn_fx_endbeamtarget,limit=1] Pos[0] 1
+execute as @e[tag=sn_fx_endbeamfire] store result entity @s BeamTarget.Y int 1 run data get entity @e[tag=sn_fx_endbeamtarget,limit=1] Pos[1] 1
+execute as @e[tag=sn_fx_endbeamfire] store result entity @s BeamTarget.Z int 1 run data get entity @e[tag=sn_fx_endbeamtarget,limit=1] Pos[2] 1
 
+execute if score novatone color_wave_b matches 4 run execute as @e[tag=sn_fx,scores={fx_id=301}] at @s run kill @e[type=end_crystal,tag=sn_fx,scores={scores=[fx_id=301]}]
+execute if score novatone color_wave_b matches 4 run execute as @e[tag=sn_fx,scores={fx_id=302}] at @s run summon end_crystal ~ ~ ~ {Target area effect cloud}
 
 
 
