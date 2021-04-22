@@ -146,10 +146,10 @@ summon minecraft:area_effect_cloud -31 76 -188 {Tags:[sn_persist,sn_fx,sn_proces
 summon minecraft:area_effect_cloud -31 80 -188 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:521}
 summon minecraft:area_effect_cloud -31 78 -188 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:522}
 summon minecraft:area_effect_cloud -31 80 -188 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:523}
-summon minecraft:area_effect_cloud -31 74 -188 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:524}
-summon minecraft:area_effect_cloud -31 74 -188 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:525}
-summon minecraft:area_effect_cloud -31 74 -188 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:526}
-summon minecraft:area_effect_cloud -31 74 -188 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:527}
+summon minecraft:area_effect_cloud -31 78 -188 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:524}
+summon minecraft:area_effect_cloud -31 83 -188 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:525}
+summon minecraft:area_effect_cloud -31 78 -188 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:526}
+summon minecraft:area_effect_cloud -31 77 -188 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:527}
 summon minecraft:area_effect_cloud -31 74 -188 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:528}
 summon minecraft:area_effect_cloud -31 74 -188 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:529}
 summon minecraft:area_effect_cloud -31 74 -188 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:530}
