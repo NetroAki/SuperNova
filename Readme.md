@@ -21,7 +21,9 @@ f_1 to f_20 = Lined up in front of the stage one block down compared to the stag
 
 
 
-
+execute store result entity @e[type=minecraft:end_crystal,limit=1] BeamTarget.X int 1 run data get entity @e[type=bat,limit=1] Pos[0] 1
+execute store result entity @e[type=minecraft:end_crystal,limit=1] BeamTarget.Y int 1 run data get entity @e[type=bat,limit=1] Pos[1] 1
+execute store result entity @e[type=minecraft:end_crystal,limit=1] BeamTarget.Z int 1 run data get entity @e[type=bat,limit=1] Pos[2] 1
 
 
 
@@ -37,7 +39,7 @@ f_1 to f_20 = Lined up in front of the stage one block down compared to the stag
 Command for directing at armor stands
 execute at @e[type=minecraft:armor_stand,limit=12,distance=0..100,name="StageFrontMid"] run
 
-
+/kill @e[tag=sn_fx,scores={fx_id=403..404}]
 
 
 

@@ -1,0 +1,1 @@
+schedule clear #minecraft:color_wave
