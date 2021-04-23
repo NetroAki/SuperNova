@@ -6,6 +6,7 @@ scoreboard objectives add color_wave dummy
 scoreboard objectives add color_wave_b dummy
 scoreboard objectives add beam_rise dummy
 scoreboard objectives add beam_travel dummy
+scoreboard objectives add beam_longcirc dummy
 scoreboard objectives add center_beam dummy
 scoreboard players set novatone co2_threshold 80
 scoreboard players set novatone co2_timer 1
@@ -14,6 +15,7 @@ scoreboard players set novatone color_wave 1
 scoreboard players set novatone color_wave_b 1
 scoreboard players set novatone beam_rise 1
 scoreboard players set novatone beam_travel 1
+scoreboard players set novatone beam_longcirc 1
 scoreboard players set novatone center_beam 1
 tellraw @a {"text": "Main Module loaded", "color": "#0000FF"}
 
