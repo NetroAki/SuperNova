@@ -1,1 +1,1 @@
-schedule clear #minecraft:color_wave
+schedule clear #minecraft:color_wave_bounce

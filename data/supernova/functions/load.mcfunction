@@ -59,18 +59,18 @@ tellraw @a {"text": "Main Module loaded", "color": "#0000FF"}
 
 #---Under-Stage Beams---# Universe 3
 #Front Row
-#summon minecraft:area_effect_cloud -34 75 -182 {Tags:[ssn_persist,n_fx,sn_process],PortalCooldown:301}
-#summon minecraft:area_effect_cloud -34 75 -181 {Tags:[ssn_persist,n_fx,sn_process],PortalCooldown:302}
-#summon minecraft:area_effect_cloud -34 75 -180 {Tags:[ssn_persist,n_fx,sn_process],PortalCooldown:303}
-#summon minecraft:area_effect_cloud -34 75 -179 {Tags:[ssn_persist,n_fx,sn_process],PortalCooldown:304}
-#summon minecraft:area_effect_cloud -34 75 -178 {Tags:[ssn_persist,n_fx,sn_process],PortalCooldown:305}
-#summon minecraft:area_effect_cloud -34 75 -177 {Tags:[ssn_persist,n_fx,sn_process],PortalCooldown:306}
-#summon minecraft:area_effect_cloud -34 75 -176 {Tags:[ssn_persist,n_fx,sn_process],PortalCooldown:307}
-#summon minecraft:area_effect_cloud -34 75 -175 {Tags:[ssn_persist,n_fx,sn_process],PortalCooldown:308}
-#summon minecraft:area_effect_cloud -34 75 -175 {Tags:[ssn_persist,n_fx,sn_process],PortalCooldown:309}
-#summon minecraft:area_effect_cloud -34 75 -174 {Tags:[ssn_persist,n_fx,sn_process],PortalCooldown:310}
-#summon minecraft:area_effect_cloud -34 75 -172 {Tags:[ssn_persist,n_fx,sn_process],PortalCooldown:311}
-#summon minecraft:area_effect_cloud -34 75 -171 {Tags:[ssn_persist,n_fx,sn_process],PortalCooldown:312}
+#summon minecraft:area_effect_cloud -34 75 -182 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:301}
+#summon minecraft:area_effect_cloud -34 75 -181 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:302}
+#summon minecraft:area_effect_cloud -34 75 -180 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:303}
+#summon minecraft:area_effect_cloud -34 75 -179 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:304}
+#summon minecraft:area_effect_cloud -34 75 -178 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:305}
+#summon minecraft:area_effect_cloud -34 75 -177 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:306}
+#summon minecraft:area_effect_cloud -34 75 -176 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:307}
+#summon minecraft:area_effect_cloud -34 75 -175 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:308}
+#summon minecraft:area_effect_cloud -34 75 -175 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:309}
+#summon minecraft:area_effect_cloud -34 75 -174 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:310}
+#summon minecraft:area_effect_cloud -34 75 -172 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:311}
+#summon minecraft:area_effect_cloud -34 75 -171 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:312}
 #summon minecraft:area_effect_cloud -34 75 -170 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:313}
 #summon minecraft:area_effect_cloud -34 75 -169 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:314}
 #summon minecraft:area_effect_cloud -34 75 -168 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:315}
