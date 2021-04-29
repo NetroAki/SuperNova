@@ -41,4 +41,4 @@ execute if score novatone color_wave_b matches 41 run execute as @e[tag=sn_fx,sc
 execute if score novatone color_wave_b matches 42.. run scoreboard players set novatone color_wave_b 1
 #Score loop
 scoreboard players add novatone color_wave_b 1
-schedule function #minecraft:color_wave_bounce 2
+schedule function #minecraft:color_wave_bounce 2 append

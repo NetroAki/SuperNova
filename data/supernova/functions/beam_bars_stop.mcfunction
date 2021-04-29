@@ -1,0 +1,1 @@
+schedule clear #minecraft:beam_bars

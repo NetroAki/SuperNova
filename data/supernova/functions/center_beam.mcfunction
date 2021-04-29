@@ -15,7 +15,7 @@ execute as @e[tag=sn_fx,scores={fx_id=361..375}] run scoreboard players operatio
 execute as @e[tag=sn_fx,scores={fx_id=361..375}] run scoreboard players operation @s gur_a -= @s fx_id
 #End crystal can't be teleported, I curse Mojang and everything they stand for. Resummon end crystal at matching entity with GUR A of 0
 kill @e[tag=sn_fx_endbeamfire]
-execute as @e[tag=sn_fx,scores={fx_id=361..375,gur_a=0}] at @s run summon end_crystal ~ ~-2 ~ {Tags:[sn_fx_endbeamfire]}
+execute as @e[tag=sn_fx,scores={fx_id=361..375,gur_a=0}] at @s run summon end_crystal ~ ~-2 ~ {Invulnerable:1b,Tags:[sn_fx_endbeamfire]}
 
 #target X, Y, then Z position on fx_id 425
 execute as @e[tag=sn_fx_endbeamfire] store result entity @s BeamTarget.X int 1 run data get entity @e[tag=sn_fx,scores={fx_id=425},limit=1] Pos[0] 1
@@ -24,5 +24,5 @@ execute as @e[tag=sn_fx_endbeamfire] store result entity @s BeamTarget.Z int 1 r
 
 #---Iterate scores for loop---#
 execute if score novatone center_beam matches 30 run scoreboard players set novatone center_beam 1
-schedule function #minecraft:center_beam 3 append
+schedule function #minecraft:center_beam 1 append
 #361 375
