@@ -2,7 +2,7 @@
 scoreboard players add novatone beam_travel 1
 
 #Set up the target
-execute if score novatone beam_travel matches 2 run summon minecraft:area_effect_cloud -35 83 -167 {Tags:[sn_persist,sn_fx_beamtarget],Duration:2000000}
+execute if score novatone beam_travel matches 2 run execute as @e[tag=sn_fx,scores={fx_id=335}] at @s run summon minecraft:area_effect_cloud ~ ~8 ~ {Tags:[sn_persist,sn_fx_beamtarget],Duration:2000000}
 
 #Define the items running the effect
 tag @e[tag=sn_fx,scores={fx_id=305}] add sn_fx_beamfire
