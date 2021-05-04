@@ -1,4 +1,4 @@
-#Raise iteration count
+  #Raise iteration count
 scoreboard players add novatone beam_longcirc 1
 
 #Set up the target

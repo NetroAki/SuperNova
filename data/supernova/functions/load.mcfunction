@@ -10,6 +10,8 @@ scoreboard objectives add beam_rise dummy
 scoreboard objectives add beam_travel dummy
 scoreboard objectives add beam_longcirc dummy
 scoreboard objectives add center_beam dummy
+scoreboard objectives add beam_bars dummy
+scoreboard players set novatone beam_bars 1
 scoreboard players set novatone co2_threshold 80
 scoreboard players set novatone co2_timer 1
 scoreboard players set novatone center_out_wave 1
@@ -19,6 +21,26 @@ scoreboard players set novatone beam_rise 1
 scoreboard players set novatone beam_travel 1
 scoreboard players set novatone beam_longcirc 1
 scoreboard players set novatone center_beam 1
+#stage entrance Scoreboards 
+scoreboard objectives add Flame_part dummy
+scoreboard objectives add Smoke_part dummy
+scoreboard objectives add Totem_part dummy
+scoreboard objectives add Water_drip_part dummy
+scoreboard objectives add Cloud_part dummy
+scoreboard objectives add Cannon_intro dummy
+scoreboard objectives add Float_down_intro dummy
+scoreboard objectives add Spin_down_intro dummy
+scoreboard objectives add Elevator_intro dummy
+scoreboard players set novatone Flame_part 0
+scoreboard players set novatone Smoke_part 0
+scoreboard players set novatone Totem_part 0
+scoreboard players set novatone Water_drip_part 0
+scoreboard players set novatone Cloud_part 0
+scoreboard players set novatone Cannon_intro 0
+scoreboard players set novatone Float_down_intro 0
+scoreboard players set novatone Spin_down_intro 0
+scoreboard players set novatone Elevator_intro 0
+
 tellraw @a {"text": "Main Module loaded", "color": "#0000FF"}
 
 #---Front Row---# Universe 0

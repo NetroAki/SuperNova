@@ -1,1 +1,1 @@
-schedule clear #minecraft:array_heart
+schedule clear #minecraft:array_flame

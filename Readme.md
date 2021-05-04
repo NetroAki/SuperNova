@@ -52,3 +52,10 @@ execute at @e[type=minecraft:armor_stand,limit=12,distance=0..100,name="StageFro
 
 The command to summon named armor stands (currently visable for testing purposes)
 /summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Rotation:[-90F,0F],CustomName:'{"text":"co2"}'}
+
+
+
+/scoreboard objectives add [name] dummy
+/scoreboard player set novatone cannon_intro 0
+execute if score novatone cannon_intro matches 10 run
+]
