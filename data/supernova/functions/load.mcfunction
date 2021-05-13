@@ -230,3 +230,14 @@ tellraw @a {"text": "Main Module loaded", "color": "#0000FF"}
 execute as @e[tag=sn_process] store result score @s fx_id run data get entity @s PortalCooldown 1
 execute as @e[tag=sn_process,type=minecraft:area_effect_cloud] run data merge entity @s {Duration:2000000}
 execute as @e[tag=sn_process] run tag @s remove sn_process
+scoreboard objectives add rng_mult dummy
+scoreboard objectives add rng_add dummy
+scoreboard objectives add rng_div dummy
+scoreboard objectives add rng_range dummy
+scoreboard objectives add rand_helper dummy
+scoreboard objectives add random dummy
+scoreboard players set netroaki rng_mult 1103515245
+scoreboard players set netroaki rng_add 12345
+scoreboard players set netroaki rng_div 65536
+scoreboard players set netroaki rand_helper 20
+scoreboard players set netroaki rng_range 1201

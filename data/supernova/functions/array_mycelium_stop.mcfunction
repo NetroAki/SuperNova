@@ -1,1 +1,0 @@
-schedule clear #minecraft:array_mycelium

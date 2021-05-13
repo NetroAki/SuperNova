@@ -175,12 +175,16 @@ summon minecraft:area_effect_cloud -31 91 -163 {Tags:[sn_persist,sn_fx,sn_proces
 summon minecraft:area_effect_cloud -32 91 -162 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:543}
 summon minecraft:area_effect_cloud -31 93 -161 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:544}
 summon minecraft:area_effect_cloud -32 89 -160 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:545}
-#Camera Teleport
+#---left and right speakers---# Universe 5.46
+summon minecraft:area_effect_cloud -33 78 -163 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:546}
+summon minecraft:area_effect_cloud -33 78 -187 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:547}
+#---central point for stage-wide effects---# Universe 5.5
+summon minecraft:area_effect_cloud -31 88 -175 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:550}
+#Camera Teleport Universe 6
  summon minecraft:area_effect_cloud -22.50 82.00 -187.50 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:601,Rotation:[45F,21F]}
  summon minecraft:area_effect_cloud -6.50 88.00 -186.50 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:602,Rotation:[74F,16.5F]}
  summon minecraft:area_effect_cloud -25.50 78.00 -170.50 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:603,Rotation:[112F,15.5F]}
  summon minecraft:area_effect_cloud -15.50 82.00 -154.50 {Tags:[sn_persist,sn_fx,sn_process],PortalCooldown:604,Rotation:[135F,14F]}
-#--lower the y values in universe 5--#
 
 #===FINISH===#
 execute as @e[tag=sn_process] store result score @s fx_id run data get entity @s PortalCooldown 1
