@@ -1,6 +1,6 @@
 DataPack made for effects in minecraft URL festivals.
 
-The system is based off of named armor stands and everything is relative to them.
+The system is based off of named area effect clouds and everything is relative to them.
 
 
 
